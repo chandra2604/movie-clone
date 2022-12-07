@@ -1,0 +1,62 @@
+
+.grid{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    /* grid-template-rows: 100px; */
+    row-gap: 50px;
+    column-gap: 10px; 
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.card_car{
+    position: relative;
+    width: 250px;
+    height: 267px;
+     margin-bottom: 25px;  
+     border-radius: 5px;
+      /* padding-bottom:25px ;  */
+     /* border: 2px solid black; */
+     cursor: pointer;
+     }
+.card_car:hover{
+    border: white solid 2px
+}
+.col1{
+    color: aliceblue;
+}
+.card_cap{
+     border: 2px solid;
+    position: relative;
+    width: 100%;
+    height: 264px !important;
+    /* border-radius: 10px; */
+}
+.rec{
+    font-size: 27px;
+    color: white;
+    padding-top: 2%;
+    /* padding-bottom: 3%; */
+    text-align: left;
+}
+.row{
+    
+    margin-bottom: 2%;
+    text-align: left;
+}
+.row1{
+    padding-top: 1%;
+}
+.img-fluid{
+    width: 80%;
+    height: 249px !important;
+    /* cursor: pointer; */
+
+}
+.col-lg-3{
+    cursor: pointer;
+}
+.col-lg-3:hover>img{
+    border: 2px solid white;
+
+
+}
